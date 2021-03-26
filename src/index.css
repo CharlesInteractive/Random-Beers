@@ -1,0 +1,31 @@
+@tailwind base;
+
+@layer base {
+  html, body {
+    @apply font-roboto;
+    @apply text-gray-800;
+  }
+  h1 {
+    @apply font-oswald;
+    @apply text-7xl;
+    @apply tracking-wide;
+    @apply uppercase;
+  }
+  h2 {
+    @apply font-oswald;
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-5xl;
+    @apply font-oswald;
+    @apply uppercase;
+  }
+  p, ul {
+    @apply text-xl;
+    @apply mb-1;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
